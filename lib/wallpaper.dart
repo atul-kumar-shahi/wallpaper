@@ -26,7 +26,7 @@ class _WallpaperState extends State<Wallpaper> {
           Uri.parse('https://api.pexels.com/v1/curated?per_page=80'),
           headers: {
             'Authorization':
-                'Luj4kqZlgUYE2YZBiD451UyIN4eiQqRhtaf7tjUhtazekHPDwUPxJ2BM',
+                'your Api',
           });
       if (res.statusCode == 200) {
         final result = jsonDecode(res.body);
@@ -48,7 +48,7 @@ class _WallpaperState extends State<Wallpaper> {
           Uri.parse('https://api.pexels.com/v1/curated?per_page=80'),
           headers: {
             'Authorization':
-            'Luj4kqZlgUYE2YZBiD451UyIN4eiQqRhtaf7tjUhtazekHPDwUPxJ2BM',
+            'Your Api',
           });
       if (res.statusCode == 200) {
         final result = jsonDecode(res.body);
